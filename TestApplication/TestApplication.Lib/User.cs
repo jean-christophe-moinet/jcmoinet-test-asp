@@ -8,5 +8,12 @@
         {
             return string.Format("Hello, {0}", name);
         }
+
+        public string SayHelloJC()
+        {
+            return SayHello("JC");
+        }
+
+
     }
 }
