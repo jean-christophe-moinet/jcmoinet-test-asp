@@ -19,5 +19,13 @@ namespace TestApplication.Tests
             var user = new User {Name = "JCM"};
             Assert.AreEqual("Hello, JCM",user.SayHello(user.Name));
         }
+
+        [Test]
+        public void TestSayHelloToJc()
+        {
+            var user = new User();
+            Assert.AreEqual("Hello, JC", user.SayHelloJC());
+        }
+
     }
 }
